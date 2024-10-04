@@ -1,18 +1,10 @@
 
-
-
-/*
-    window.addEventListener('load', function () {
-        document.querySelector('.pre-loader').className += ' hidden';
-    });
-
 /* ----- NAVIGATION BAR FUNCTION ----- */
-
 
 function myMenuFunction(){
   var menuBtn = document.getElementById("myNavMenu");
   if(menuBtn.className === "nav-menu"){
-    menuBtn.className += " responsive";
+    menuBtn.className += "responsive";
   } else {
     menuBtn.className = "nav-menu";
   }
@@ -20,8 +12,6 @@ function myMenuFunction(){
 /* function closeNav() {
   document.getElementById("myNavMenu").style.display="nav-menu";
 } */
-
-
 
 /* ----- ADD SHADOW ON NAVIGATION BAR WHILE SCROLLING ----- */
 window.onscroll = function() {headerShadow()};
