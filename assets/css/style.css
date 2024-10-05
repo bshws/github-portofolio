@@ -260,11 +260,11 @@ ul li a{
     align-content: center;
 	text-align: center;
     height: 90vh;
-    width: 60%; /* this keeps the img not drown size within the border when page down size */
+    width: 70%; /* this keeps the img not drown size within the border when page down size */
 }
 .image{
     margin: auto;
-	margin-left: 160px;
+	margin-left: 155px;
     width: 270px;
     height: 270px;
     border-radius: 50% 50% 50% 50%;
@@ -274,7 +274,7 @@ ul li a{
 
 .image img{
     height: 270px;
-	width: 270px;
+	width: 280px;
     object-fit: cover;
 }
 @keyframes imgFloat {
